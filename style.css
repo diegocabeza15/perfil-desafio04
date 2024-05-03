@@ -1,0 +1,82 @@
+body{
+    background-image: url(img/nasa.jpg);
+    color: beige;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: orange;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px yellow;
+    color: grey;
+}
+
+h2{
+    text-shadow: 1px 1px yellow;
+    color: grey;
+    text-align: center;
+}
+
+
+section{
+    text-align: center;
+    text-decoration: none;
+}
+
+.list-none{
+    list-style-type: none;
+}
+
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+
+fieldset {
+    border: 2px; /* Eliminar el borde del fieldset */
+    padding: 20px; /* Añadir espacio interno al fieldset */
+}
+
+legend {
+    font-size: 1.2em; /* Tamaño de la fuente del título */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 10px; /* Espacio inferior entre el título y los elementos del formulario */
+}
+
+label {
+    margin-bottom: 5px; /* Espacio inferior entre las etiquetas y los campos de entrada */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    padding: 8px; /* Añadir espacio interno */
+    margin-bottom: 10px; /* Espacio inferior entre los campos de entrada */
+    border: 2px solid #513bc0; /* Borde ligero */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: rgba(74, 68, 68, 0.505);
+}
+
+button {
+    padding: 10px 20px; /* Añadir espacio interno al botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Eliminar el borde del botón */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor:pointer; /* Cambiar el cursor al pasar el ratón */
+    margin-right: 10px; /* Espacio derecho entre los botones */
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo del botón al pasar el ratón */
+}
+
+
+
+
+

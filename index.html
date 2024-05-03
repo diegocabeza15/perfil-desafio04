@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Perfil de Alumno</h1>
+        <img src="./img/foto_01.webp" alt="Imagen propia">
+    </header>
+
+    <nav>
+        <a href="https://www.twitch.tv/tioneit69" target="_blank" rel="noreferrer">Mi twitch</a>
+    </nav>
+
+    <main>
+        <h2>Acerca de mi </h2>
+        <p>Me llamo Diego, me recibi con un titulo de bachiller en Economia y Administración, hice un curso de
+            reparación de computadoras y tengo una pasión por los videojuegos o tecnologia en general. Me he
+            dedicado a ayudar en algunos servidores en asuntos de mapeo ya que es un hobby que tengo tambien asi
+            como ir al gimnasio para despejar la mente.
+        </p>
+    </main>
+    
+    <section>
+        <h2>Datos personales</h2>
+        <ul class="list-none">
+            <li>Nombre: Diego</li>
+            <li>Apellido: Cabeza</li>
+            <li>Edad: 21</li>
+            <li>Email: diegocabeza15@gmail.com</li>
+        </ul>
+    </section>
+
+    <form>
+        
+        <h2>Formulario</h2>
+        
+        <fieldset>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre">
+        </fieldset>
+        <fieldset>
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" id="Apellido"> 
+        </fieldset>
+        <fieldset>
+            <label for="Edad">Edad</label>
+            <input type="number" name="Edad" id="Edad">
+        </fieldset>
+        <fieldset>
+            <label for="Correo">Correo</label>
+            <input type="text" name="Correo" id="Correo">
+        </fieldset>
+
+        <fieldset>
+            <label for="Country" placeholder="Elige tu pais">Selecciona tu país:</label>
+
+            <select id="Country" name="Country">
+                <option value="Argentina" id="Argentina">Argentina</option>
+                <option value="Chile" id="Chile">Chile</option>
+                <option value="Uruguay" id="Uruguay">Uruguay</option>
+                <option value="Paraguay" id="Paraguay">Paraguay</option>
+                <option value="Bolivia" id="Bolivia">Bolivia</option>
+                <option value="Peru" id="Peru">Peru</option>
+                <option value="Brasil" id="Brasil">Brasil</option>
+                <option value="Ecuador" id="Ecuador">Ecuador</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="texto">Comentario</label>
+            <textarea name="Texto" id="Texto" cols="20" rows="10" placeholder="Ingrese Texto..."></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="Confirm">Acepto</label>
+            <input type="checkbox" id="Confirm">
+        </fieldset>
+        <fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reescribir</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
